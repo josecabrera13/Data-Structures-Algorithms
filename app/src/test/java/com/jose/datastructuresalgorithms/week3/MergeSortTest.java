@@ -6,9 +6,9 @@ import org.junit.Test;
 public class MergeSortTest {
     @Test
     public void SortIntegersTest() {
-        Integer[] items = {9, 6, 8, 1, 2};
-        Integer[] itemsExpected = {1, 2, 6, 8, 9};
-        MergeSort.sort(items, null);
+        Integer[] items = {5,2,3,1};
+        Integer[] itemsExpected = {1,2,3,5};
+        MergeSort.sort(items,null);
         Assert.assertArrayEquals(itemsExpected, items);
     }
 }
